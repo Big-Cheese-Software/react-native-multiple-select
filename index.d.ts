@@ -15,6 +15,8 @@ export interface MultiSelectProps {
     onSelectedItemsChange: ((items: any[]) => void),
     selectedItemFontFamily?: string;
     selectedItemTextColor?: string;
+    itemPaddingTop?: number;
+    itemPaddingBottom?: number;
     itemFontFamily?: string;
     itemTextColor?: string;
     itemFontSize?: number;
